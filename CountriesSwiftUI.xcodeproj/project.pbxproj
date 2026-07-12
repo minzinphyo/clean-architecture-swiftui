@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D81761D3003EC9F002131C7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81761C3003EC99002131C7 /* Logger.swift */; };
 		52333A932654463B0034072B /* UIOpenURLContext_Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 52333A922654463B0034072B /* UIOpenURLContext_Init.m */; };
 		678E0BAF26B749A000B21166 /* Publisher+WeakAssign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E0BAE26B749A000B21166 /* Publisher+WeakAssign.swift */; };
 		F60829712369CE0100DB292E /* RequestMocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60829702369CE0100DB292E /* RequestMocking.swift */; };
@@ -106,6 +107,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D81761C3003EC99002131C7 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		52333A90265445F30034072B /* UnitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		52333A91265445F30034072B /* UIOpenURLContext_Init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIOpenURLContext_Init.h; sourceTree = "<group>"; };
 		52333A922654463B0034072B /* UIOpenURLContext_Init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIOpenURLContext_Init.m; sourceTree = "<group>"; };
@@ -394,6 +396,7 @@
 		F64496012360D8D800C9BB1F /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0D81761C3003EC99002131C7 /* Logger.swift */,
 				F60B5E3E2438DA57009BCBB3 /* Store.swift */,
 				F60B5E3C2438DA47009BCBB3 /* CancelBag.swift */,
 				F64496022360D8EB00C9BB1F /* Loadable.swift */,
@@ -701,6 +704,7 @@
 				F661F2B8237738CE0014E142 /* RootViewModifier.swift in Sources */,
 				F6BDB91A236382E7003E69F2 /* ImageView.swift in Sources */,
 				F661F2B6237734FA0014E142 /* AppEnvironment.swift in Sources */,
+				0D81761D3003EC9F002131C7 /* Logger.swift in Sources */,
 				F68B530A2376EE8C00D6337C /* ImageWebRepository.swift in Sources */,
 				F644960E2360EF6C00C9BB1F /* WebRepository.swift in Sources */,
 				F64496002360D8B000C9BB1F /* CountriesService.swift in Sources */,
@@ -914,7 +918,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CountriesSwiftUI/Resources\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LZZ5YUDV87;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CountriesSwiftUI/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -924,7 +928,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.countries.swiftui;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.countries.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -941,7 +945,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CountriesSwiftUI/Resources\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LZZ5YUDV87;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CountriesSwiftUI/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -951,7 +955,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.countries.swiftui;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.countries.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
